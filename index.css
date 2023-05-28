@@ -17,6 +17,8 @@ div.navbar{
    /* border: 1px solid black;*/ 
    border-right-width: 100;
    border-bottom:2px solid black ;
+   position:fixed;
+   margin-top: 0px;
 } 
 
 .nav-button{
@@ -40,7 +42,7 @@ a{
     color: aliceblue;
     font-size: 2rem; 
     font-weight: bold;
-    margin-left:15px ; 
+    margin-left:15px; 
 } 
 
 #welcome-section{ 
@@ -50,7 +52,8 @@ a{
      /* border: 1px solid black;*/
     display: flex;
     flex-direction: column;
-    align-items: center; 
+    align-items: center;
+     
 }
 
 h1{
@@ -116,7 +119,7 @@ button{
     margin: 50px;
     margin-bottom:50px  ;
 }
-.footer{
+#footer{
     width: 100%;
     height: auto;
     background-color: rgb(57, 57, 58);
@@ -140,6 +143,4 @@ p{
     color: white;
     margin-left: 10px;
 }
-.socials{
-
-}
+ 
